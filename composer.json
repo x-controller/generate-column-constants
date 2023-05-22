@@ -1,0 +1,30 @@
+{
+  "name": "x-controller/generate-column-constants",
+  "description": "Generate column constants for all tables in the database",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "columns",
+    "constants",
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "xController",
+      "email": "chmzho@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "XController\\GenerateColumnConstants\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "XController\\GenerateColumnConstants\\ColumnConstGeneratorServiceProvider"
+      ]
+    }
+  }
+}
