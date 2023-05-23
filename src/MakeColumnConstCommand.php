@@ -4,7 +4,6 @@ namespace XController\GenerateColumnConstants;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
-use function App\Console\Commands\app_path;
 
 class MakeColumnConstCommand extends Command
 {
